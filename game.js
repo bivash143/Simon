@@ -106,5 +106,7 @@ $("#ruleBtn").click(function () {
 });
 
 $("#play").click(function () {
-    nextSequence();    
+    if(level === 0){
+        nextSequence();
+    }
 })
