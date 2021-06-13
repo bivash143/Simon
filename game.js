@@ -26,11 +26,11 @@ $(document).keypress(function(event){
     if(event.key === 'i' || event.key === 'o' || event.key === 'k' || event.key === 'l'){
         if(level !== 0){
             var x = "";
-            if(event.key === 'i')
+            if(event.key === 'k')
                 x = "red";
             else if(event.key === 'o')
                 x = "blue";
-            else if(event.key === 'k')
+            else if(event.key === 'i')
                 x = "yellow";
             else if(event.key === 'l')
                 x = "green";
