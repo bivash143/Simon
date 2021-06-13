@@ -99,7 +99,6 @@ function startAgain() {
     game_rec = [];
 }
 
-$(".rules").hide();
 $("#ruleBtn").click(function () {
     animate("ruleBtn");
     $(".rules").slideToggle();
