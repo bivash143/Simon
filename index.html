@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simon Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="game.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Press A Key To Start</h1>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td class="gameBox">
+                        <div id = "yellow" class="yellow btn i"></div>
+                        <div id = "blue" class="blue btn o"></div>
+                        <br>
+                        <div id = "red" class="red btn k"></div>
+                        <div id = "green" class="green btn l"></div>
+                    </td>
+                    <td>
+                        <div class="default">
+                            <span class="score">Your Best: 0</span>  
+                            <button id="ruleBtn" class="ruleBtn">Rules</button>
+                            <ul class="rules">
+                                <li>Controls:
+                                    <ul>
+                                        <li>Mouse Click</li>
+                                        <li>Keyboard: I(Yellow), P(Blue), K(Red), L(Green)</li>
+                                    </ul>
+                                </li>
+                                <li>Press Any Keyboard Key To Start Except Control Key</li>
+                                <li>Each Time Cpu Will Choose A Box</li>
+                                <li>Each Time You Have To Click The Box Or Use Control key And You Must Obey All Commands From Starting</li>
+                            <ul>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <span>© Copyright 2021 Simon</span>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="game.js" charset="utf-8"></script>
+        
+    </body>
+</html>

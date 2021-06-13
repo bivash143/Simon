@@ -1,0 +1,94 @@
+body{
+    background-color: #3c415c;
+    color: #fffbdf;
+;
+    text-align: center;
+}
+h1{
+    font-family: 'Press Start 2P',cursive;
+    font-size: 3rem;
+    padding: 40px;
+    text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
+}
+table{
+    margin: 0 auto 100px auto;
+}
+
+/* gameBox */
+.btn{
+    border-style: solid;
+    border-width: 0.62rem;
+    border-radius: 20%;
+    
+    display: inline-block;
+    height: 12.5rem;
+    margin: 1.25rem;  
+    width: 12.5rem;
+}
+
+.gameBox{
+    border-style: solid;
+    border-width: 0.62rem;
+    background-color: #a5a5a5;
+    border-radius: 10%;
+    height: 32.94rem;
+    padding: 1.88rem;
+    width: 32.94rem;
+
+    
+}
+
+
+/* Butoons */
+
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+/* Effects */
+.pressed{
+    background-color: #DBEDF3;
+    box-shadow: 0 5px 10px 0 #DBEDF3;
+    opacity: 0.5;
+    
+}
+.gameOver{
+    background-color: #ff1c1c;
+}
+
+/* info */
+.default{
+    background-color: #75c0b4;
+    font-family: 'Press Start 2P',cursive;
+    line-height: 1.5;
+    margin-left: 10%;
+    padding: 1.5rem;
+    width: 25rem;
+}
+.default .score{
+    font-size: 2rem;
+}
+.ruleBtn{
+    background-color: #ff7171;
+    border-radius: 15%;
+    border: none;
+    color: azure;
+    font-size: 30px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.rules{
+    text-align: left;
+}
