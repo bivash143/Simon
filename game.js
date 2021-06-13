@@ -51,7 +51,7 @@ function check(currentLevel) {
             }, 1000);   
     }
     else if(game_rec[currentLevel] !== user_rec[currentLevel]){
-        $("h1").text("Game Over, Press Any Key to Restart");
+        $("h1").text("Game Over, Press Any Key / Press Play to Restart");
         soundPlay("wrong");
         $(".gameBox").addClass("gameOver");
         setTimeout(() => {
@@ -100,7 +100,11 @@ function startAgain() {
 }
 
 $(".rules").hide();
-$(".ruleBtn").click(function () {
+$("#ruleBtn").click(function () {
     animate("ruleBtn");
     $(".rules").slideToggle();
 });
+
+$("#play").click(function () {
+    nextSequence();    
+})
