@@ -83,10 +83,10 @@ function soundPlay(file) {
     var audio = new Audio("sounds/"+file+".mp3");
     audio.play();
 }
-function animate(cls) {
-    $("#"+cls).addClass("pressed");
+function animate(id) {
+    $("#"+id).addClass("pressed");
     setTimeout(() => {
-        $("#"+cls).removeClass("pressed");
+        $("#"+id).removeClass("pressed");
     }, 100);
 }
 
@@ -106,6 +106,7 @@ $("#ruleBtn").click(function () {
 
 $("#play").click(function () {
     if(level === 0){
+        animate("play");
         nextSequence();
     }
 })
